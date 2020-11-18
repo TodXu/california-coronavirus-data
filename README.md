@@ -31,8 +31,7 @@ There are 2 plots:
 
 # Run Project using Docker  
 
-### Build the docker using in the local machine (Windows):  
-### At first, Write the Dockerfile  
+### Build the docker using in the local machine (Windows) after writing the Dockerfile :  
 
 `docker build --tag dsci560hw5 .`
 
