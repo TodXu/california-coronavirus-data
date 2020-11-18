@@ -33,7 +33,7 @@ There are 2 plots:
 
 ### Build the docker using:
 
-`docker build --tag dsci560hw5`
+`docker build --tag dsci560hw5 .`
 
 Run the image using:
 
