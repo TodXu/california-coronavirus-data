@@ -31,7 +31,17 @@ There are 2 plots:
 
 # Run Project using Docker  
 
+### Build the docker using:
 
+`docker build --tag dsci560hw5`
+
+Run the image using:
+
+`docker run -p 5006:5006 -it dsci560hw5`
+
+And get the result:
+
+`http://localhost:5006/script`
 
 # california-coronavirus-data
 
