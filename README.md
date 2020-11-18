@@ -16,13 +16,20 @@ Then I installed the virtualenv package by:
 Then I changed the directory to my local clone and created the new environment named dsci560H5:  
 `cd C:\Users\Tod Xu\Documents\GitHub\california-coronavirus-data`  
 `py -m venv dsci560H5`  
-
 I activated the environment by  
 `py -m .\Script\activate`  
 Then I installed the dependencies in my virtual environment:  
 `py -m pip install numpy`  
-`py -m pip install pandas` 
-`py -m pip install bokeh
+`py -m pip install pandas`   
+`py -m pip install bokeh`  
+At last, I run visualization script by executing:  
+`bokeh serve --show .\script.py`  
+Then the page will be opened in browser.
+There are 2 plots:  
+1.Line plot to show daily new cases/deaths of Covid-19 in August  
+2.Histogram plot to show total cases/deaths percentage campared with population percentage of each ethnicity/race.   
+
+# Run Project using Docker  
 
 
 
