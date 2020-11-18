@@ -1,3 +1,31 @@
+# California Covid-19 Case Visualization
+# Description 
+### Case Visualization designed to visualize California state Covid-19 new cases and deaths. It implemented using Bokeh library and run with Bokeh server. There are 2 charts being shown:  
+1.Line plot to show daily new cases/deaths of Covid-19 in August  
+2.Histogram plot to show total cases/deaths percentage campared with population percentage of each ethnicity/race.  
+
+# Files needed to run the visualization  
+1. requirements.txt is the environment requirement 
+2. script.py is the code for visualization by using Bokeh
+
+# Preparing Environment and Running Project  
+At first, I used Github Desktop to clone the coronavirus-data Repository to local.  
+I've done the project by using Python version of 3.7.8.  
+Then I installed the virtualenv package by:  
+`pip install virtualenv`  
+Then I changed the directory to my local clone and created the new environment named dsci560H5:  
+`cd C:\Users\Tod Xu\Documents\GitHub\california-coronavirus-data`  
+`py -m venv dsci560H5`  
+
+I activated the environment by  
+`py -m .\Script\activate`  
+Then I installed the dependencies in my virtual environment:  
+`py -m pip install numpy`  
+`py -m pip install pandas` 
+`py -m pip install bokeh
+
+
+
 # california-coronavirus-data
 
 The Los Angeles Times' independent tally of coronavirus cases in California.
