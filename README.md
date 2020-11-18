@@ -7,6 +7,7 @@
 # Files needed to run the visualization  
 1. requirements.txt is the environment requirement 
 2. script.py is the code for visualization by using Bokeh
+3. Dockerfile
 
 # Preparing Environment and Running Project  
 At first, I used Github Desktop to clone the coronavirus-data Repository to local.  
